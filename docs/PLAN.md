@@ -54,68 +54,68 @@
 - [x] Document and commit `PLAN.md`.
 
 ### Phase 2: Tech Foundation & Project Initialization
-- [ ] Initialize Next.js project with App Router, TypeScript, and ESLint in non-interactive mode.
-- [ ] Set up design system tokens in `src/app/globals.css` using tokens from `docs/DESIGN.md` (colors, typography, spacing, glassmorphic elevation).
-- [ ] Implement `LanguageContext` and dictionaries (`src/locales/vi.ts` and `src/locales/en.ts`) providing typed translations for all UI components.
-- [ ] Generate mock portrait photo asset (`public/images/portrait_cao_gia_han.png`) using professional finance aesthetic.
-- [ ] Generate mock professional resume PDF file (`public/Cao_Gia_Han_Resume.pdf`).
+- [x] Initialize Next.js project with App Router, TypeScript, and ESLint in non-interactive mode.
+- [x] Set up design system tokens in `src/app/globals.css` using tokens from `docs/DESIGN.md` (colors, typography, spacing, glassmorphic elevation).
+- [x] Implement `LanguageContext` and dictionaries (`src/locales/vi.ts` and `src/locales/en.ts`) providing typed translations for all UI components.
+- [x] Generate mock portrait photo asset (`public/images/portrait_cao_gia_han.jpg`) using professional finance aesthetic.
+- [x] Generate mock professional resume PDF file (`public/Cao_Gia_Han_Resume.pdf`).
 
 ### Phase 3: Header, Bilingual Navigation & Footer
-- [ ] Build `Header` component:
+- [x] Build `Header` component:
   - Sticky glassmorphic navbar with blur backdrop.
   - Wordmark: "Cao Gia Hân" with badge pill "Associate AR | Shopee".
   - Nav links: About, Experience, Skills.
   - Bilingual switcher component (`VI` | `EN`) with active highlight and smooth transition.
-- [ ] Build `Footer` component with copyright, contact CTA, and quick scroll-to-top.
+- [x] Build `Footer` component with copyright, contact CTA, and quick scroll-to-top.
 
 ### Phase 4: Hero Section
-- [ ] Implement responsive 12-column grid container.
-- [ ] Left column: Title badge, greeting headline, tailored summary of 4+ years in Shopee AR & Trade Union Finance.
-- [ ] CTA Action button row:
+- [x] Implement responsive 12-column grid container.
+- [x] Left column: Title badge, greeting headline, tailored summary of 4+ years in Shopee AR & Trade Union Finance.
+- [x] CTA Action button row:
   - Primary button: "Download Resume / Tải CV" (direct download link to `/Cao_Gia_Han_Resume.pdf`).
   - Secondary button: "Connect via LinkedIn / Kết nối LinkedIn" (`https://www.linkedin.com/in/caogiahan`).
-- [ ] Quick social strip: LinkedIn and Gmail (`caogiahan.finance@gmail.com`).
-- [ ] Right column: Portrait card with delicate indigo border and shadow.
+- [x] Quick social strip: LinkedIn and Gmail (`caogiahan.finance@gmail.com`).
+- [x] Right column: Portrait card with delicate indigo border and shadow.
 
 ### Phase 5: About Section
-- [ ] Two-card grid layout:
+- [x] Two-card grid layout:
   - **Card 1: Education (HUB)** — Degree, major in Accounting & Auditing, academic strengths.
   - **Card 2: Shopee Career Highlights** — 4+ years tenure, reconciliation volume, SLA KPIs, dual-responsibility recognition.
-- [ ] Stat metrics grid inside cards:
+- [x] Stat metrics grid inside cards:
   - 4+ Years Experience at Shopee
   - 99.8% Accuracy & SLA Compliance
   - Millions of AR Records Reconciled
   - 100% Trade Union Financial Compliance
 
 ### Phase 6: Experience Section & Dedicated Subpages
-- [ ] Construct central vertical timeline component with alternating left/right cards:
+- [x] Construct central vertical timeline component with alternating left/right cards:
   - Card 1 (Left): **Associate Accounts Receivable Finance (2022 – Present)** at Shopee Việt Nam.
   - Card 2 (Right): **Kế toán Công đoàn (2024 – Present)** at Shopee Việt Nam.
   - Badge periods, company tags, summary of key achievements, skill pill tags, and CTA "Xem chi tiết / View Details →".
-- [ ] Create dedicated subpage 1: `/experience/associate-ar-shopee`:
+- [x] Create dedicated subpage 1: `/experience/associate-ar-shopee`:
   - Detailed breakdown: Daily AR reconciliation, seller dispute resolution, payment gateway settlements (ShopeePay, COD), SAP ERP postings, aging AR report automation.
   - Breadcrumb back to home page, bilingual content support.
-- [ ] Create dedicated subpage 2: `/experience/shopee-trade-union-accountant`:
+- [x] Create dedicated subpage 2: `/experience/shopee-trade-union-accountant`:
   - Detailed breakdown: Union fund budgeting, employee welfare disbursements, financial reporting according to Vietnam Trade Union regulations, internal audit & tax compliance.
   - Breadcrumb back to home page, bilingual content support.
 
 ### Phase 7: Skills Section (4-Tier Finance Matrix)
-- [ ] Construct 4-category matrix with numbered labels (`01`, `02`, `03`, `04`):
+- [x] Construct 4-category matrix with numbered labels (`01`, `02`, `03`, `04`):
   - `01. Nghiệp vụ Kế toán AR & Công đoàn` (AR Billing, Seller Reconciliation, Dispute Resolution, Union Budgeting)
   - `02. Hệ thống ERP & Phần mềm kế toán` (SAP ERP, Shopee Admin Portal, MISA, Banking Portals)
   - `03. Phân tích dữ liệu & Báo cáo` (Advanced Excel, Power Query, Power BI, Aging AR Dashboard)
   - `04. Chuẩn mực, Thuế & Kỹ năng bổ trợ` (VAS, VAT & E-Invoicing, Internal Audit, Business English, Stakeholder Negotiation)
-- [ ] Elegant card grid with specialized SVG icons, hover transitions, and clean typography.
+- [x] Elegant card grid with specialized SVG icons, hover transitions, and clean typography.
 
 ### Phase 8: Testing, Accessibility, SEO & Polish
-- [ ] Verify instant bilingual switching across all sections and subpages.
-- [ ] Verify mock PDF resume download and LinkedIn link behavior.
-- [ ] Test responsive layouts across mobile (iPhone/Android), tablet (iPad), and desktop viewports.
-- [ ] Run accessibility check (contrast ratio, keyboard focus indicators, aria-labels).
-- [ ] Run production build (`npm run build`) to ensure zero TypeScript or build errors.
+- [x] Verify instant bilingual switching across all sections and subpages.
+- [x] Verify mock PDF resume download and LinkedIn link behavior.
+- [x] Test responsive layouts across mobile (iPhone/Android), tablet (iPad), and desktop viewports.
+- [x] Run accessibility check (contrast ratio, keyboard focus indicators, aria-labels).
+- [x] Run production build (`npm run build`) to ensure zero TypeScript or build errors.
 
 ---
 
 ## 4. Current Task Status
-- **Status**: Phase 1 Complete (Roadmap & Specifications locked).
-- **Ready for Next Phase**: Proceed to Phase 2 (Project Initialization & Design Tokens Setup).
+- **Status**: ALL PHASES COMPLETE (Phase 1 through Phase 8).
+- **Result**: Production-ready, bilingual portfolio for Cao Gia Hân (Associate Accounts Receivable Finance & Trade Union Accountant at Shopee Vietnam) with 100% build pass, responsive design, and zero errors.
