@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import ExperienceDetailPage from "@/components/ExperienceDetailPage";
 
 export function generateStaticParams() {
@@ -28,11 +29,39 @@ export async function generateMetadata({
   };
 }
 
-export default async function Page({
+async function ExperienceContent({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
   return <ExperienceDetailPage slug={slug} />;
+}
+
+export default function Page({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  return (
+    <Suspense
+      fallback={
+        <div
+          className="site-wrapper"
+          style={{
+            minHeight: "100vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <div style={{ color: "var(--color-primary-600)", fontWeight: 600 }}>
+            Loading...
+          </div>
+        </div>
+      }
+    >
+      <ExperienceContent params={params} />
+    </Suspense>
+  );
 }

@@ -66,7 +66,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="vi" className={inter.variable}>
+    <html lang="vi" className={inter.variable} data-scroll-behavior="smooth">
       <body className="portfolio-body">
         <LanguageProvider>{children}</LanguageProvider>
       </body>

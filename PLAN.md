@@ -11,3 +11,5 @@ Chi tiết kế hoạch đầy đủ được lưu tại: [docs/PLAN.md](file://
 - **Phase 6: Experience Section & Dedicated Subpages** (Hoàn thành - Timeline giữa so le 2 bên, 2 Trang chi tiết riêng biệt cho AR Shopee và Kế toán Công đoàn)
 - **Phase 7: Skills Section (4-Tier Finance Matrix)** (Hoàn thành - Ma trận 4 tầng chuyên sâu, 26 thẻ kỹ năng kèm icon tài chính chuyên biệt)
 - **Phase 8: Testing, Accessibility, SEO & Polish** (Hoàn thành - Toàn bộ 5 endpoints trả về 200 OK, chuẩn SEO OpenGraph, Accessible focus-visible, Build 0 lỗi)
+- **Bugfix (Next.js 16 PPR & Smooth Scroll)**: Xử lý cảnh báo `data-scroll-behavior="smooth"` và bọc `params` trong `<Suspense>` cho dynamic route `/experience/[slug]` tương thích tuyệt đối với Turbopack Partial Prefetching (PPR).
+

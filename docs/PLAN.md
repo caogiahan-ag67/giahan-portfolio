@@ -117,5 +117,8 @@
 ---
 
 ## 4. Current Task Status
-- **Status**: ALL PHASES COMPLETE (Phase 1 through Phase 8).
+- **Status**: ALL PHASES COMPLETE & RECENT RUNTIME ISSUES RESOLVED.
+- **Bug Fix**:
+  1. `src/app/layout.tsx`: Thêm `data-scroll-behavior="smooth"` vào thẻ `<html>` để loại bỏ cảnh báo Next.js khi chuyển trang.
+  2. `src/app/experience/[slug]/page.tsx`: Bọc component đọc `params` (`ExperienceContent`) trong `<Suspense fallback={...}>` để Next.js 16 Partial Prefetching / Cache Components có thể prerender instant loading shell hoàn hảo, giải quyết triệt để lỗi `Route "/experience/[slug]": Next.js encountered URL data during prerendering or a navigation`.
 - **Result**: Production-ready, bilingual portfolio for Cao Gia Hân (Associate Accounts Receivable Finance & Trade Union Accountant at Shopee Vietnam) with 100% build pass, responsive design, and zero errors.
