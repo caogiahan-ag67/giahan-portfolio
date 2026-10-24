@@ -3,7 +3,7 @@ import { TranslationDictionary } from "@/types/portfolio";
 export const vi: TranslationDictionary = {
   brand: {
     name: "Cao Gia Hân",
-    badge: "Associate AR Finance | Shopee",
+    badge: "Associate Assistant Receivable Finance",
   },
   nav: {
     about: "Giới thiệu",
@@ -32,17 +32,17 @@ export const vi: TranslationDictionary = {
       subtitle: "Cử nhân Kế toán và Kiểm toán (HUB)",
       text: "Được đào tạo chuyên sâu về Chuẩn mực Kế toán Việt Nam (VAS), quy trình Kiểm toán tài chính, kiểm soát nội bộ và phân tích dữ liệu kế toán số. Tham gia tích cực các hoạt động học thuật và hội thảo tài chính doanh nghiệp.",
       stats: [
-        { val: "Cử nhân", lbl: "Kế toán & Kiểm toán" },
-        { val: "Tiếng Anh & Excel", lbl: "Ngoại ngữ & Kỹ năng số" },
+        { val: "8.45 / 10", lbl: "GPA" },
+        { val: "2", lbl: "Xuân Tình Nguyện" },
       ],
     },
     experienceCard: {
-      title: "Kinh nghiệm & Trọng tâm chuyên môn",
+      title: "Kinh nghiệm & Chuyên môn",
       subtitle: "4+ Năm tại Shopee Việt Nam",
       text: "Quản lý dòng tiền AR hàng tỷ đồng mỗi kỳ, đối soát hàng triệu đơn hàng TMĐT, giải quyết khiếu nại công nợ nhà bán hàng, đảm bảo SLA đối soát trên 99.8% và phụ trách toàn diện công tác kế toán tài chính Công đoàn Shopee.",
       stats: [
         { val: "4+ Năm", lbl: "Kinh nghiệm tại Shopee" },
-        { val: "99.8%", lbl: "Độ chính xác đối soát" },
+        { val: "2+ Năm", lbl: "Kế toán Công đoàn Shopee" },
       ],
     },
     highlightsTitle: "Điểm nhấn & Đóng góp nổi bật",

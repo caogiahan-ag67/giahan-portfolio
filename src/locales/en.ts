@@ -3,7 +3,7 @@ import { TranslationDictionary } from "@/types/portfolio";
 export const en: TranslationDictionary = {
   brand: {
     name: "Cao Gia Han",
-    badge: "Associate AR Finance | Shopee",
+    badge: "Associate Assistant Receivable Finance",
   },
   nav: {
     about: "About",
@@ -13,7 +13,7 @@ export const en: TranslationDictionary = {
   },
   hero: {
     badge: "Finance & Accounting Specialist",
-    headline: "I'm Cao Gia Han",
+    headline: "Hi, I'm Cao Gia Han",
     subheadline: "Associate Accounts Receivable Finance & Trade Union Accountant at Shopee Vietnam",
     summary:
       "Bachelor of Accounting & Auditing graduate from Ho Chi Minh University of Banking (HUB) with 4+ years of hands-on experience at Shopee Vietnam. Specialized in e-commerce revenue reconciliation, accounts receivable (AR) management, e-wallet cash flow balancing, aging AR report automation on SAP ERP, and statutory trade union financial accounting.",
@@ -32,8 +32,8 @@ export const en: TranslationDictionary = {
       subtitle: "Bachelor of Accounting & Auditing (HUB)",
       text: "Comprehensive academic training in Vietnam Accounting Standards (VAS), financial auditing workflows, internal control systems, and computer-assisted accounting analytics. Active participant in academic and business finance forums.",
       stats: [
-        { val: "Bachelor", lbl: "Accounting & Auditing" },
-        { val: "English & Excel", lbl: "Languages & Digital" },
+        { val: "8.45 / 10", lbl: "GPA" },
+        { val: "2", lbl: "Volunteer Spring Campaign" },
       ],
     },
     experienceCard: {
@@ -41,8 +41,8 @@ export const en: TranslationDictionary = {
       subtitle: "4+ Years at Shopee Vietnam",
       text: "Managing multi-billion VND accounts receivable per cycle, reconciling millions of e-commerce transactions, resolving merchant billing disputes, maintaining a 99.8%+ SLA reconciliation accuracy, and overseeing full Shopee Trade Union financial management.",
       stats: [
-        { val: "4+ Years", lbl: "Tenure at Shopee" },
-        { val: "99.8%", lbl: "Reconciliation SLA" },
+        { val: "4+ Years", lbl: "Experience at Shopee" },
+        { val: "2+ Years", lbl: "Trade Union Accountant at Shopee" },
       ],
     },
     highlightsTitle: "Key Highlights & Contributions",
